@@ -1,3 +1,3 @@
 # python_for_cybersecurity
 
-Inspired by Howard Poston's "Python for Cybersecurity": https://www.howardposton.com/
+Python tools for cybersecurity; written and fine-tuned during Howard Poston's "Python for Cybersecurity" (https://www.howardposton.com/)
