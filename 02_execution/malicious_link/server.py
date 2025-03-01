@@ -1,4 +1,4 @@
-# Simple Python server to collect input from a phishing web page
+# Simple Python server to collect input from webpage.html
 
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import urlparse,parse_qs
