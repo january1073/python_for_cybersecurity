@@ -1,3 +1,3 @@
 # python_for_cybersecurity
 
-Python tools for cybersecurity; written and fine-tuned during Howard Poston's "Python for Cybersecurity" (https://www.howardposton.com/)
+Python tools for cybersecurity; written and fine-tuned during Infosec's "Python for Cybersecurity" (https://www.infosecinstitute.com/skills/learning-paths/python-for-cybersecurity/) by Howard Poston (https://www.howardposton.com/)
