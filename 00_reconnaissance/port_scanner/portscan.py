@@ -1,4 +1,4 @@
-# Scapy port scanner
+# Simple Scapy port scanner
 
 from scapy.all import *
 
