@@ -4,7 +4,7 @@ import PyInstaller.__main__
 import shutil
 import os
 
-filename = "malicious.py" # Enter your filename
+filename = "executable.py" # Enter your filename
 exename = "benign.exe" # Enter your filename
 icon = "Firefox.ico" # Choose an icon
 pwd = os.getcwd()
@@ -17,7 +17,7 @@ print("Creating EXE")
 
 # Create executable from Python script
 PyInstaller.__main__.run([
-	"malicious.py",
+	"executable.py",
 	"--onefile",
 	"--clean",
 	"--log-level=ERROR",
