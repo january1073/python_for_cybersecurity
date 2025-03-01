@@ -33,7 +33,7 @@ def SubdomainSearch(domain, dictionary, nums):
 				s = word+str(i)+"."+domain
 				DNSRequest(s)
 
-domain = "google.com" # Enter the target domain here
+domain = "google.com" # Enter target domain here
 d = "subdomains.txt" # Make sure you have your subdomains.txt at the right place
 dictionary = []
 with open(d,"r") as f:
