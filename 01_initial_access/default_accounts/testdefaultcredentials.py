@@ -37,7 +37,7 @@ def TelnetLogin(host, port, username, password):
         print(f"Telnet connection error: {e}")
 
 host = "127.0.0.1"  # IP address 
-with open("defaults.txt", "r") as f:  # Ensure this file exists
+with open("defaults.txt", "r") as f:  # Make sure you have your defaults.txt at the right place
     for line in f:
         vals = line.strip().split()
         if len(vals) < 2:
