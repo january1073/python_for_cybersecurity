@@ -1,3 +1,4 @@
+# Run commands from alternate data stream file and executable
 import os
 
 def buildADSFilename(filename,streamname):
