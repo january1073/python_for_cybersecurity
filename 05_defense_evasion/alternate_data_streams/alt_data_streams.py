@@ -1,4 +1,3 @@
-# ...
 import os
 
 def buildADSFilename(filename,streamname):
